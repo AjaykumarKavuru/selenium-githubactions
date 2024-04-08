@@ -25,6 +25,7 @@ public class Selenium_Githubaction_test {
 		
 		driver.findElement(By.xpath("//div[text()='You1st']")).click();
 		System.out.println("Checking Github actions");
+		//checking
 		driver.quit();
 	}
 
